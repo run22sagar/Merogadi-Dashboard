@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-compatible" Content="IE-edge">
+	<meta name="viewport" content="width=device-width , initial-scale=1, shrink-to-fit=no">
+	<title>Mero Gadi</title>
+	
+	<link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="all.min.css">
+
+  <!--Boostrap-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <!--fonts Sans-->
+
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+<!--fontawesome-->
+
+ 
+
+
+</head>
+<body>
+<!--navbar-->
+
+<nav class="navbar navbar-expand-lg navbar-light  bg">
+  <a class="navbar-brand" href="#">  
+    <img src="https://merogaadi.s3.us-east-2.amazonaws.com/images/static/merogaadi-logo-mobile.png" alt="merogaadi-log" title="MeroGaadi">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse " id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      
+      
+      <li class="nav-item dropdown ">
+        <a class="nav-link dropdown-toggle nav-contents" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Contacts
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown show">
+        <a class="nav-link dropdown-toggle nav-contents" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Tasks
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <!-- <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button> -->
+    </form>
+    <a><i class="fas fa-bell nav-icons"></i></a>
+    <i class="fas fa-cog nav-icons"></i> <lead class="nav-icons"> | </lead>
+    <i class="fas fa-user-circle nav-icons" ></i> <lead class="nav-icons"> 
+ <a class="nav-link dropdown-toggle nav-contents" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Tasks
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#"><i class="fas fa-user-circle" style="font-size: 30px;"></i> &nbsp; Harry Pant</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Profile and Preferences</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Account and Billing</a>
+          <a class="dropdown-item" href="#">Pricing and Features</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item">Log Out</a>
+        </div>
+
+
+
+    </lead>
+<!--Navbar Dropdown -->
+<!-- <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" data-sidebar="true" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    User
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Sagar</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+                 -->
+
+
+
+
+<!--Navbar Dropdown -->
+
+
+  </div>
+</nav>
+
+<!--Mid Nav-->
+<section class="merogadi-midnav">
+  <div class="container-fluid">
+  <div class="row">
+    <div class="col-md-4">
+      <h4>Contacts</h4>
+      <p>2 contacts</p>
+    </div>
+    <!--create contact-->
+    <div class="col-md-8 ">
+      <!-- <button class="btn btn-primary  merogadi-createcontact" type="submit">Create Contact</button>     -->
+    
+    <button type="button" class="btn btn-primary  float-right merogadi-createcontact" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Create Contact</button>
+
+
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Create Contact</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <!--create contact form start-->
+       <form>
+ 
+    <div class="row">
+      <div class="col-md-4">
+        <div class="form-group">
+        <label for="exampleFormControlInput1">First name</label>
+    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="First Name">
+      </div>
+
+    </div>
+    <div class="col-md-4">
+        <div class="form-group">
+        <label for="exampleFormControlInput1">Middle Name</label>
+    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Middle Name">
+      </div>
+
+    </div>
+    <div class="col-md-4">
+        <div class="form-group">
+        <label for="exampleFormControlInput1">Last Name</label>
+    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Last Name">
+      </div>
+</div>
+    </div>
+
+     <div class="form-group">
+    <label for="exampleFormControlInput1">Email address</label>
+    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+  </div>
+
+  <div class="form-group">
+    <label for="exampleFormControlInput1">Contact</label>
+    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Phone Number">
+  </div>
+  
+    <div class="form-group">
+    <label for="exampleFormControlSelect1">District</label>
+    <select class="form-control" id="exampleFormControlSelect1">
+      <option>Kathmandu</option>
+      <option>Bhaktapur</option>
+      <option>Lalitpur</option>
+      <option>Biratnagar</option>
+      <option>Solukhumbu</option>
+    </select>
+  </div>
+  
+ 
+</form>
+
+        <!--create contact form end-->
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary merogadi-createcontact">Create Contact</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+    <!--create contact -->
+  </div>
+  </div>
+</section>
+
+<section class="merogadi-subnav">
+
+  <div class="container-fluid">
+  <!-- Nav tabs -->
+  <ul class="nav nav-tabs">
+    <li class="nav-item">
+      <a class="nav-link active" href="#home"><i class="fa fa-bell icon"></i> All Contacts</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#menu1"><i class="fa fa-bell icon" aria-hidden="true"></i> My Contacts</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#menu2">Unassigned Contacts</a>
+    </li>
+  </ul>
+
+  <!-- Tab panes -->
+  <div class="tab-content mb-3">
+    <div id="home" class="tab-pane active"><br>
+      <div class="row">
+      <!--home1 content-->
+      <div class="col-md-3">    
+        <div class="form-group has-search">
+           <span class="fa fa-search form-control-feedback"></span>
+             <input type="text" class="form-control" placeholder="Search name, phone, address">
+        </div>
+      </div>
+      <div class=" col-md-2 merogadi-c-owner">    
+         <div class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Contact Owner</a>
+          <div class="dropdown-menu">
+            <a href="#" class="dropdown-item">Action</a>
+            <a href="#" class="dropdown-item">Another action</a>
+          </div>
+        </div>
+      </div>
+       <div class="col-md-2 merogadi-drop">    
+ 
+        <div class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Create Date</a>
+          <div class="dropdown-menu">
+            <a href="#" class="dropdown-item">Action</a>
+            <a href="#" class="dropdown-item">Another action</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row scroll-down">
+      <table class="table table-hover merogadi-table ">
+  <thead>
+    <tr>
+      <th scope="col"><input type="checkbox"></th>
+      <th scope="col">Name</th>
+      <th scope="col">Model Name</th>
+      <th scope="col">Contact Owner</th>
+      <th scope="col">Last Activity</th>
+      <th scope="col">Lead Status</th>
+      <th scope="col">Create Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row"><input type="checkbox"></th>
+      <td><a href="contacts.html">Mark Javob</a></td>
+      <td>Otto</td>
+      <td>@mdo</td>
+      <td>Otto</td>
+      <td>@mdo</td>
+      <td>2/21/2021</td>
+    </tr>
+    <tr>
+      <th scope="row"><input type="checkbox"></th>
+      <td><a href="#">Jacob Henry</a></td>
+      <td>Thornton</td>
+      <td>@fat</td>
+      <td>Thornton</td>
+      <td>@fat</td>
+      <td>2/21/2021</td>
+    </tr>
+    <tr>
+      <th scope="row"><input type="checkbox"></th>
+      <td><a href="#">Heney Marcus</a></td>
+      <td>Park</td>
+      <td>@twitter</td>
+      <td>Orla</td>
+      <td>@gen</td>
+      <td>2/21/2021</td>
+    </tr>
+  </tbody>
+</table>
+    </div>
+
+
+
+
+
+    </div>
+    <div id="menu1" class=" tab-pane fade"><br>
+      <h3>My Contacts</h3>
+      
+    </div>
+    <div id="menu2" class=" tab-pane fade"><br>
+      <div class="row">
+      <!--home1 content-->
+      <div class="col-md-3">    
+        <div class="form-group has-search">
+           <span class="fa fa-search form-control-feedback"></span>
+             <input type="text" class="form-control" placeholder="Search name, phone, address">
+        </div>
+      </div>
+      <div class=" col-md-2 merogadi-c-owner">    
+         <div class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">(1) Contact Owner</a>
+          <div class="dropdown-menu">
+            <a href="#" class="dropdown-item">Action</a>
+            <a href="#" class="dropdown-item">Another action</a>
+          </div>
+        </div>
+      </div>
+       <div class="col-md-2 merogadi-drop">    
+ 
+        <div class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Create Date</a>
+          <div class="dropdown-menu">
+            <a href="#" class="dropdown-item">Action</a>
+            <a href="#" class="dropdown-item">Another action</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <table class="table table-hover">
+  <thead>
+    <tr>
+      <th scope="col"><input type="checkbox"></th>
+      <th scope="col">Name</th>
+      <th scope="col">Model Name</th>
+      <th scope="col">Contact Owner</th>
+      <th scope="col">Last Activity</th>
+      <th scope="col">Lead Status</th>
+      <th scope="col">Create Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row"><input type="checkbox"></th>
+      <td><a href="#">Mark</a></td>
+      <td>Otto</td>
+      <td>@mdo</td>
+      <td>Otto</td>
+      <td>@mdo</td>
+      <td>2/21/2021</td>
+    </tr>
+    <tr>
+      <th scope="row"><input type="checkbox"></th>
+      <td><a href="#">Jacob</a></td>
+      <td>Thornton</td>
+      <td>@fat</td>
+      <td>Thornton</td>
+      <td>@fat</td>
+      <td>2/21/2021</td>
+    </tr>
+    <tr>
+      <th scope="row"><input type="checkbox"></th>
+      <td><a href="#">Heney</a></td>
+      <td>Park</td>
+      <td>@twitter</td>
+      <td>Orla</td>
+      <td>@gen</td>
+      <td>2/21/2021</td>
+    </tr>
+  </tbody>
+</table>
+    </div>
+    </div>
+  </div>
+<!--   <p class="act"><b>Active Tab</b>: <span></span></p>
+  <p class="prev"><b>Previous Tab</b>: <span></span></p> -->
+</div>
+  
+</section>
+
+
+<!-- JavaScript -->
+
+<script src="https://use.fontawesome.com/releases/v5.15.2/js/all.js" data-auto-replace-svg="nest"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" ></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+
+
+<script>
+$(document).ready(function(){
+  $(".nav-tabs a").click(function(){
+    $(this).tab('show');
+  });
+  $('.nav-tabs a').on('shown.bs.tab', function(event){
+    var x = $(event.target).text();         // active tab
+    var y = $(event.relatedTarget).text();  // previous tab
+    // $(".act span").text(x);
+    // $(".prev span").text(y);
+  });
+});
+</script>
+</body>
+</html>

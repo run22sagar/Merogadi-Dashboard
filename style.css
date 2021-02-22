@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*
+{
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+	
+}
+
+.navbar img
+{
+height: 24px;
+width: auto;
+}
+
+.bg
+{
+
+	background: #33475b !important;
+}
+.nav-icons
+{
+	color: white;
+	font-size: 18px;
+	padding-left: 10px !important;
+	cursor: pointer;
+}
+.nav-contents 
+{
+	color: white !important;
+
+}
+
+.merogadi-midnav
+{
+	margin-top: 20px;
+	margin-left: 25px;
+	line-height: 8px;
+	margin-right: 25px;
+/*	background-color: red;*/
+}
+.merogadi-midnav h4
+{
+	color: #007a8c;
+}
+.merogadi-midnav p
+{
+font-size: 12px;
+color: gray;	
+}
+.merogadi-createcontact
+{
+	background:#ff7a59 !important;
+	border-color: #ff7a59 !important;
+	color: white;
+}
+.merogadi-subnav
+{
+	margin-left: 25px;
+margin-right: 25px;
+	/*margin-top: 20px;*/
+/*	background: pink;*/
+
+}
+.merogadi-subnav a
+{
+	color: #0091AE;
+}
+.merogadi-subnav a:hover
+{
+	/*color:#94d3df;*/
+	color: #495057;
+}
+
+.merogadi-searchbtn
+{
+	background:white !important;
+	margin-left: -20px !important;
+}
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+
+.merogadi-c-owner
+{
+	padding-top: 5px;
+}
+.merogadi-drop
+{
+	padding-top: 5px;
+}
+
+.merogadi-c-owner a
+{
+
+text-decoration: none;
+color: #0091AE !important;
+/*font-weight: bold;*/
+
+
+}
+.merogadi-drop a:hover
+{
+	color:#0091AE;
+    text-decoration:underline;
+    cursor:pointer;
+}
+ .merogadi-drop a
+ {
+ 	text-decoration: none;
+color: #0091AE !important;
+ }
+ .merogadi-table a
+ {
+ 	font-weight: bold;
+ 	text-decoration: none;
+  color: #0091AE !important;
+ }
+
+
+.merogadi-innerpage
+{
+
+}
+.details
+{/*
+	background:red;*/
+	margin-top: 20px;
+	height: 90%;
+	position: fixed;
+	/*overflow: hidden;*/
+
+}
+.scroll-down
+{
+	width:   100%;
+	overflow-x: scroll; 
+}
+
+ .scroll-list{
+
+  height: 658px;
+  overflow-y: scroll;
+}
+
+
+.btn-bread{
+    margin-top:10px;
+    font-size: 12px;
+    
+    border-radius: 3px;
+}
+.contacts
+{
+	height: 100%;
+	width: 100%;
+}
+.back-contact
+{
+	background:rgb(229, 245, 248) !important;
+	border-color: rgb(0, 164, 189) !important;
+	color: rgb(51, 71, 91) !important;
+}
+.customer-name
+{
+	
+	padding-top: 30px;
+	padding-left: 100px;
+}
+.customer-name h3
+{
+	font-size: 40px;
+	color: gray;
+}
+.merogadi-collapse a
+{
+	color: rgb(0, 122, 140);
+}
+.merogadi-collapse a:hover
+{
+	text-decoration: none;
+	color: rgb(0, 122, 140);
+}
+.activity-tasks
+
+{
+	/*height: 350px;*/
+	width: cover;
+	/*background:red;*/
+	padding:20px;
+	border-color: gray;
+	  box-shadow: 5px 10px 18px #888888;
+}
+.activity-tasks1
+
+{
+	/*height: 350px;*/
+	width: cover;
+	/*background:red;*/
+	margin-top: 20px;
+	padding:20px;
+	border-color: gray;
+	  box-shadow: 5px 10px 18px #888888;
+}
+.activity-section
+{
+	margin-top: 50px !important;
+}
+.activity-section-details 
+{
+	padding-top: 20px;
+padding-left: 35px;
+}
+.activity-section-details th
+{
+font-weight: normal;
+color: gray;
+}
+.activity-section-details td
+{
+color: #0091ae;
+width: 150px;
+}
+.activity-section-details a
+{
+	cursor: pointer !important;
+}
+
+/* Tasks CSS */
+.task-scroll-down
+{
+	/*width:   850px;*/
+	width: cover;
+	overflow-x: scroll; 
+}
+.setting-left li
+{
+	text-decoration: none;
+	list-style: none;
+}
+.setting-content
+{
+	margin-top: 10px;
+}
+.setting-top-content
+{
+	margin-top: 20px;
+	margin-left: 15px;
+	color: gray;
+}
+.a
+{
+	padding-right: 0px !important;
+}
+.b
+{
+	padding-left: 0px !important;
+}
+.setting-status-bar
+{
+	margin-top: 10px;
+}
+.merogadi-table td
+{
+	color: gray;
+}
+/* Tasks CSS */

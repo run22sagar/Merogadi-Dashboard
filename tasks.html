@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-compatible" Content="IE-edge">
+	<meta name="viewport" content="width=device-width , initial-scale=1, shrink-to-fit=no">
+	<title>Mero Gadi</title>
+	
+	<link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="all.min.css">
+
+  <!--Boostrap-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <!--fonts Sans-->
+
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+<!--fontawesome-->
+
+ 
+
+
+</head>
+<body>
+<!--navbar-->
+
+<nav class="navbar navbar-expand-lg navbar-light  bg">
+  <a class="navbar-brand" href="#">  
+    <img src="https://merogaadi.s3.us-east-2.amazonaws.com/images/static/merogaadi-logo-mobile.png" alt="merogaadi-log" title="MeroGaadi">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse " id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      
+      
+      <li class="nav-item dropdown ">
+        <a class="nav-link dropdown-toggle nav-contents" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Contacts
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown show">
+        <a class="nav-link dropdown-toggle nav-contents" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Tasks
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <!-- <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button> -->
+    </form>
+    <a><i class="fas fa-bell nav-icons"></i></a>
+    <i class="fas fa-cog nav-icons"></i> <lead class="nav-icons"> | </lead>
+    <i class="fas fa-user-circle nav-icons" ></i> <lead class="nav-icons">User</lead>
+  </div>
+</nav>
+
+<!--Mid Nav-->
+<section class="merogadi-midnav">
+  <div class="container-fluid">
+  <div class="row">
+    <div class="col-md-4">
+      <h4>Tasks</h4>
+      
+    </div>
+    <!--create contact-->
+    <div class="col-md-8 ">
+      <!-- <button class="btn btn-primary  merogadi-createcontact" type="submit">Create Contact</button>     -->
+    
+    <button type="button" class="btn btn-primary  float-right merogadi-createcontact" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Create Task</button>
+
+
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Create Task</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <!--create contact form start-->
+       <form>
+  <div class="form-group">
+    <label for="exampleFormControlInput1">Title *</label>
+    <input type="text" class="form-control" id="" placeholder="name@example.com">
+  </div>
+    <div class="row">
+      <div class="col-md-8">
+        <div class="form-group">
+        
+    <label for="exampleFormControlSelect1">Type</label>
+    <select class="form-control" id="exampleFormControlSelect1">
+      <option>To-Do</option>
+      <option>Call</option>
+      <option>Email</option>
+      
+    </select>
+      </div>
+
+    </div>
+    <div class="col-md-4">
+        <div class="form-group">
+        <label for="exampleFormControlSelect1">Priority</label>
+    <select class="form-control" id="exampleFormControlSelect1">
+      <option>None</option>
+      <option>High</option>
+     
+      
+    </select>
+      </div>
+
+    </div>
+    
+    </div>
+
+    
+
+  <div class="form-group">
+    <label for="exampleFormControlSelect1">Associate with records</label>
+    <select class="form-control" id="exampleFormControlSelect1">
+      <option>Associate with 0 records</option>
+      <option>Associate with 1 records</option>
+     
+      
+    </select>
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlSelect1">Assigned To</label>
+    <select class="form-control" id="exampleFormControlSelect1">
+      <option>Nickey Path</option>
+      <option>No Record</option>
+     
+      
+    </select>
+  </div>
+
+  <div class="form-group">
+    <label for="exampleFormControlSelect1">Queue</label>
+    <select class="form-control" id="exampleFormControlSelect1">
+      <option>None</option>
+      <option><a>Create new queue</a></option>
+     
+      
+    </select>
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlSelect1">Due Date</label>
+    <div class="row">
+      <div class="col-md-8">
+        <select class="form-control" id="exampleFormControlSelect1">
+      <option>In 3 business days</option>
+      <option>In 7 business days</option>
+     
+      
+    </select>
+      </div>
+
+
+      <div class="col-md-4"><select class="form-control" id="exampleFormControlSelect1">
+      <option>7 A.M</option>
+      <option>8 A.M</option>
+      <option>9 A.M</option>
+     
+      
+    </select> </div>
+    </div>
+     
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlSelect1">Notes</label><br>
+    <textarea name="message" rows="10" cols="30">
+
+</textarea>
+
+  </div>
+  
+    
+    
+ 
+</form>
+
+        <!--create contact form end-->
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary merogadi-createcontact">Create Task</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+    <!--create contact -->
+  </div>
+  </div>
+</section>
+
+<section class="merogadi-subnav">
+
+  <div class="container-fluid">
+  <!-- Nav tabs -->
+  <ul class="nav nav-tabs">
+    <li class="nav-item">
+      <a class="nav-link active" href="#all-contact"> All</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#due"> Due today</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#overdue">Overdue</a>
+    </li>
+     <li class="nav-item">
+      <a class="nav-link" href="#upcoming">Upcoming</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#completed">Completed</a>
+    </li>
+  </ul>
+
+  <!-- Tab panes -->
+  <div class="tab-content mb-3">
+    <div id="all-contact" class="tab-pane active"><br>
+      <div class="row">
+      <!--home1 content-->
+      <div class="col-md-3">    
+        <div class="form-group has-search">
+           <span class="fa fa-search form-control-feedback"></span>
+             <input type="text" class="form-control" placeholder="Search name, phone, address">
+        </div>
+      </div>
+      <div class=" col-md-2 merogadi-c-owner">    
+         <div class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Contact Owner</a>
+          <div class="dropdown-menu">
+            <a href="#" class="dropdown-item">Action</a>
+            <a href="#" class="dropdown-item">Another action</a>
+          </div>
+        </div>
+      </div>
+       <div class="col-md-2 merogadi-drop">    
+ 
+        <div class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Create Date</a>
+          <div class="dropdown-menu">
+            <a href="#" class="dropdown-item">Action</a>
+            <a href="#" class="dropdown-item">Another action</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row task-scroll-down">
+      <table class="table  table-hover merogadi-table ">
+  <thead>
+    <tr>
+      <th scope="col"><input type="checkbox"></th>
+      <th scope="col">Status</th>
+      <th scope="col" style="width: 180px;">Title</th>
+      <th scope="col" style="width: 220px !important;">Association</th>
+      <th scope="col" style="width: 180px;">Model Name</th>
+      <th scope="col"style="width: 150px !important;">Variant</th>
+      <th scope="col" >Last Contacted</th>
+      <th scope="col">Last Engaged</th>
+      <th scope="col">Task Type</th>
+      <th scope="col">Due Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row"><input type="checkbox"></th>
+      <td><i class="fas fa-check-circle " style="color: gray; text-align: center;"></i></td>
+      <td>Otto</td>
+      <td>Green Life Bank</td>
+      <td>Otto</td>
+      <td>@mdo</td>
+      <td>2/21/2021</td>
+       <td>2/21/2021</td>
+       <td>To-Do</td>
+       <td>2/21/2021</td>
+    </tr>
+    <tr>
+      <th scope="row"><input type="checkbox"></th>
+      <td><i class="fas fa-check-circle " style="color: gray; text-align: center;"></i></td>
+      <td>Ford</td>
+      <td>@fat</td>
+      <td>Thornton</td>
+      <td>@fat</td>
+      <td>2/21/2021</td>
+       <td>2/21/2021</td>
+       <td>To-Do</td>
+       <td>-</td>
+    </tr>
+    <tr>
+      <th scope="row"><input type="checkbox"></th>
+      <td><i class="fas fa-check-circle " style="color: gray; text-align: center;"></i></td>
+      <td>Park</td>
+      <td>@twitter</td>
+      <td>Orla</td>
+      <td>@gen</td>
+      <td>2/21/2021</td>
+       <td>2/21/2021</td>
+       <td>Urgent</td>
+       <td>2/21/2021</td>
+    </tr>
+  </tbody>
+</table>
+    </div>
+
+
+
+
+
+    </div>
+    <!--Due Today-->
+    <div id="due" class=" tab-pane fade"><br>
+      <div class="row task-scroll-down">
+      <table class="table  table-hover merogadi-table ">
+  <thead>
+    <tr>
+      <th scope="col"><input type="checkbox"></th>
+      <th scope="col">Status</th>
+      <th scope="col" style="width: 180px;">Title</th>
+      <th scope="col" style="width: 220px !important;">Association</th>
+      <th scope="col" style="width: 180px;">Model Name</th>
+      <th scope="col"style="width: 150px !important;">Variant</th>
+      <th scope="col" >Last Contacted</th>
+      <th scope="col">Last Engaged</th>
+      <th scope="col">Task Type</th>
+      <th scope="col">Due Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row"><input type="checkbox"></th>
+      <td><i class="fas fa-check-circle " style="color: gray; text-align: center;"></i></td>
+      <td>Otto</td>
+      <td>Green Life Bank</td>
+      <td>Otto</td>
+      <td>@mdo</td>
+      <td>2/21/2021</td>
+       <td>2/21/2021</td>
+       <td>To-Do</td>
+       <td>2/21/2021</td>
+    </tr>
+    
+  </tbody>
+</table>
+</div>
+      
+    </div>
+     <!--Overdue-->
+     <div id="overdue" class=" tab-pane fade"><br>
+      <div class="row task-scroll-down">
+      <table class="table  table-hover merogadi-table ">
+  <thead>
+    <tr>
+      <th scope="col"><input type="checkbox"></th>
+      <th scope="col">Status</th>
+      <th scope="col" style="width: 180px;">Title</th>
+      <th scope="col" style="width: 220px !important;">Association</th>
+      <th scope="col" style="width: 180px;">Model Name</th>
+      <th scope="col"style="width: 150px !important;">Variant</th>
+      <th scope="col" >Last Contacted</th>
+      <th scope="col">Last Engaged</th>
+      <th scope="col">Task Type</th>
+      <th scope="col">Due Date</th>
+    </tr>
+  </thead>
+  
+</table>
+</div>
+      
+    </div>
+
+    <!--Upcoming-->
+     <div id="overdue" class=" tab-pane fade"><br>
+      <div class="row task-scroll-down">
+      <table class="table  table-hover merogadi-table ">
+  <thead>
+    <tr>
+      <th scope="col"><input type="checkbox"></th>
+      <th scope="col">Status</th>
+      <th scope="col" style="width: 180px;">Title</th>
+      <th scope="col" style="width: 220px !important;">Association</th>
+      <th scope="col" style="width: 180px;">Model Name</th>
+      <th scope="col"style="width: 150px !important;">Variant</th>
+      <th scope="col" >Last Contacted</th>
+      <th scope="col">Last Engaged</th>
+      <th scope="col">Task Type</th>
+      <th scope="col">Due Date</th>
+    </tr>
+  </thead>
+  
+</table>
+</div>
+      
+    </div>
+    <!--Completed-->
+     <div id="overdue" class=" tab-pane fade"><br>
+      <div class="row task-scroll-down">
+      <table class="table  table-hover merogadi-table ">
+  <thead>
+    <tr>
+      <th scope="col"><input type="checkbox"></th>
+      <th scope="col">Status</th>
+      <th scope="col" style="width: 180px;">Title</th>
+      <th scope="col" style="width: 220px !important;">Association</th>
+      <th scope="col" style="width: 180px;">Model Name</th>
+      <th scope="col"style="width: 150px !important;">Variant</th>
+      <th scope="col" >Last Contacted</th>
+      <th scope="col">Last Engaged</th>
+      <th scope="col">Task Type</th>
+      <th scope="col">Due Date</th>
+    </tr>
+  </thead>
+  
+</table>
+</div>
+      
+    </div>
+    
+  </div>
+<!--   <p class="act"><b>Active Tab</b>: <span></span></p>
+  <p class="prev"><b>Previous Tab</b>: <span></span></p> -->
+</div>
+  
+</section>
+
+
+<!-- JavaScript -->
+
+<script src="https://use.fontawesome.com/releases/v5.15.2/js/all.js" data-auto-replace-svg="nest"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" ></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+
+
+<script>
+$(document).ready(function(){
+  $(".nav-tabs a").click(function(){
+    $(this).tab('show');
+  });
+  $('.nav-tabs a').on('shown.bs.tab', function(event){
+    var x = $(event.target).text();         // active tab
+    var y = $(event.relatedTarget).text();  // previous tab
+    // $(".act span").text(x);
+    // $(".prev span").text(y);
+  });
+});
+</script>
+</body>
+</html>

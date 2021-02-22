@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-compatible" Content="IE-edge">
+	<meta name="viewport" content="width=device-width , initial-scale=1, shrink-to-fit=no">
+	<title>Mero Gadi</title>
+	
+	<link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="all.min.css">
+
+  <!--Boostrap-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <!--fonts-->
+
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+<!--fontawesome-->
+
+
+
+</head>
+<body>
+<!--navbar-->
+
+<nav class="navbar navbar-expand-lg navbar-light  bg">
+  <a class="navbar-brand" href="#">  
+    <img src="https://merogaadi.s3.us-east-2.amazonaws.com/images/static/merogaadi-logo-mobile.png" alt="merogaadi-log" title="MeroGaadi">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse " id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      
+      
+      <li class="nav-item dropdown ">
+        <a class="nav-link dropdown-toggle nav-contents" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Contacts
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown show">
+        <a class="nav-link dropdown-toggle nav-contents" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Tasks
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <!-- <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button> -->
+    </form>
+    <a><i class="fas fa-bell nav-icons"></i></a>
+    <i class="fas fa-cog nav-icons"></i> <lead class="nav-icons"> | </lead>
+    <i class="fas fa-user-circle nav-icons" ></i> <lead class="nav-icons">User</lead>
+  </div>
+</nav>
+
+
+<!--inner page start-->
+<section class="merogadi-innerpage">
+  <!--left page start-->
+    <div class="row">
+     
+    <div class="col-md-3 details">
+        <div class="container scroll-list">
+          
+         
+          <button href="#" class="btn btn-primary back-contact"> <b>< </b> Back to Contact</button>                
+          <hr>
+          <div class="setting-left">
+               <h5>Settings</h5> 
+               <ul>
+                 <li>User and Teams</li>
+               </ul>          
+          </div>
+      </div>
+      </div><!--left vanda hallka mmathi-->
+
+
+
+  <div class="container setting-content">
+  <!-- Nav tabs -->
+  <ul class="nav nav-tabs">
+    <li class="nav-item">
+      <a class="nav-link active" href="#users"> Users </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#teams"> Teams </a>
+    </li>
+    
+  </ul>
+<!--tab panes-->
+ <div class="tab-content mb-3">
+  <div id="users" class="tab-pane active"><br>
+      <div class="row">
+        <section class="setting-top-content">
+        <p>Create new users, customize user permissions, and remove users from your account.</p>
+      </section>
+      </div>
+      <div class="row setting-status-bar">
+        <div class="col-md-6">
+          <label>Status: </label>
+         <!--  <div class="dropdown">
+                      <a class=" dropdown-toggle"  id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Status
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">All</a>
+                        <a class="dropdown-item" href="#">Pending</a>
+                        
+                      </div>
+                    </div> -->
+        </div>
+        <div class="col-md-4 a">
+        <div class="form-group has-search">
+           <span class="fa fa-search form-control-feedback"></span>
+             <input type="text" class="form-control" placeholder="Search name, ">
+        </div>
+
+      </div>
+      <div class="col-md-2 b">
+        <button type="button" class="btn btn-primary  float-right merogadi-createcontact" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Create Task</button>
+      </div>
+      </div>
+
+      <div class="row">
+      <table class="table table-hover merogadi-table ">
+  <thead>
+    <tr>
+      <th scope="col"><input type="checkbox"></th>
+      <th scope="col" style="width: 400px">Name</th>
+      <th scope="col">Team</th>
+      <th scope="col">Access</th>
+      <th scope="col">Last Active</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row"><input type="checkbox"></th>
+      <td><a href="contacts.html">Mark Javob</a><br><i style="color: gray; font-size: 10px;">run2sagar@gmail.com</i></td>
+      <td>Otto</td>
+      <td>Super Admin</td>
+      <td>5 hours ago</td>
+      
+    </tr>
+    <tr>
+      <th scope="row"><input type="checkbox"></th>
+      <td><a href="contacts.html">Mark Javob</a><br><i style="color: gray; font-size: 10px;">run2sagar@gmail.com</i></td>
+      <td>Otto</td>
+      <td>Super Admin</td>
+      <td>5 hours ago</td>
+      
+    </tr>
+  </tbody>
+</table>
+    </div>
+
+  </div>
+
+
+
+
+<!--second page tab-->
+  <div id="teams" class="container tab-pane fade"><br>
+     
+      <div class="row">
+      <table class="table table-hover merogadi-table ">
+  <thead>
+    <tr>
+      <th scope="col"><input type="checkbox"></th>
+      <th scope="col" style="width: 400px">Name</th>
+      <th scope="col">Team</th>
+      <th scope="col">Access</th>
+      <th scope="col">Last Active</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row"><input type="checkbox"></th>
+      <td><a href="contacts.html">Mark Javob</a><br><i style="color: gray; font-size: 10px;">run2sagar@gmail.com</i></td>
+      <td>Otto</td>
+      <td>Super Admin</td>
+      <td>5 hours ago</td>
+      
+    </tr>
+   
+  </tbody>
+</table>
+    </div>
+
+  </div>
+
+    </div>
+<!--Second Page Tab-->
+
+ </div>
+ <!--tab pans end-->
+
+</div><!--setting content-->
+
+            
+
+          <!--Next Notification Ends-->
+
+          </div>
+
+
+
+         
+
+   
+
+   <!--no touch down-->
+
+
+<!--left page end-->
+
+
+
+
+</section> <!--mero gadi inner page end-->
+
+
+
+<!-- JavaScript -->
+
+<script src="https://use.fontawesome.com/releases/v5.15.2/js/all.js" data-auto-replace-svg="nest"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" ></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+<script>
+$(document).ready(function(){
+  $(".nav-tabs a").click(function(){
+    $(this).tab('show');
+  });
+  $('.nav-tabs a').on('shown.bs.tab', function(event){
+    var x = $(event.target).text();         // active tab
+    var y = $(event.relatedTarget).text();  // previous tab
+    $(".act span").text(x);
+    $(".prev span").text(y);
+  });
+});
+</script>
+
+
+</body>
+</html>
